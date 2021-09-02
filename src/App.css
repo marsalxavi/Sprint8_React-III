@@ -1,5 +1,30 @@
-.App {
+/* Redefinir estils */
+
+button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: calc(8px + 2vmin);
+  ;
+}
+
+img {
+  display: block;
+  max-width: 60%;
+  height: auto;
+}
+
+/* Estils aplicacio */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -7,20 +32,68 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
+  border: 1px solid white;
+  /* min-height: 100vh; */
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  padding-top: 15px;
+}
+
+.App-titles {
+  text-align: center;
+  max-height: min-content;
+}
+
+.App-body {
+  /* flex: 0 0 25em; */
+  background-color: black;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App.CosPagNaus {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(8px + 2vmin);
+  min-width: 38vw;
+  max-width: 38vw;
+  max-height: 75vh;
+}
+
+.App-CosUnaNau {
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(8px + 2vmin);
+  min-width: 60vw;
+  max-width: 60vw;
+  max-height: 75vh;
+}
+
+.App-footer {
+  background-color: black;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: col;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
   color: white;
 }
 
