@@ -2,7 +2,7 @@
 import React from 'react'
 
 // Llista totes les naus per pantalla
-import PrintPaginaNaus from './PrintPaginaNaus';
+import PrintPaginaNaus from './PrintPaginaNaus.jsx';
 
 // Cos de la Pag de Naus
 const CosPagNaus = (PageNum, { PaginaNaus, setUnaNau }) => {

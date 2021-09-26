@@ -2,7 +2,7 @@
 import React from 'react'
 
 // Llista una Nau per pantalla
-import FitxaUnaNau from './FitxaUnaNau';
+import FitxaUnaNau from './FitxaUnaNau.jsx';
 
 // Cos d' una Nau
 const CosUnaNau=({unaNau})=>{

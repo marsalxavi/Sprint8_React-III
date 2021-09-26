@@ -1,0 +1,39 @@
+.jumbo {
+  text-align: center;
+  position: relative;
+  top: -35em;
+  z-index: 3;
+  color: yellow;
+  font-family: Roboto;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  max-height:0px;
+}
+.jumbo h1 {
+    font-family: covered by your grace, cursive;
+    font-size: 5em;
+}
+.jumbo h2 {
+    font-size: 4em;
+    text-transform:uppercase;
+}
+.jumbo p {
+    font-size: 3em;
+}
+
+.navbar {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+.item img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-height: 800px;
+  max-width: 100%;
+  z-index: -99;
+}

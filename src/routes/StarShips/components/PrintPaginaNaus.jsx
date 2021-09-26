@@ -1,8 +1,8 @@
 
 import React from 'react'
 
-import GetUnaNau from './GetUnaNau'; // Retorna la nau seleccionada del llistat de naus
-import NomImodel from './NomIModel'; // Retorna nom - model
+import GetUnaNau from './GetUnaNau.jsx'; // Retorna la nau seleccionada del llistat de naus
+import NomImodel from './NomIModel.jsx'; // Retorna nom - model
 
 // Llista totes les naus per pantalla
 function PrintPaginaNaus({PaginaNaus, setUnaNau}) {
