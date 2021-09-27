@@ -1,6 +1,3 @@
-
-import React from 'react'
-
 // Crida a la API afegint Num Pag
 // Modificat al Nivell 1 Exercici 3
 

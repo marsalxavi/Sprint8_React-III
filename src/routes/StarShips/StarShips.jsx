@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 
 // Components
 import GetWebPage from './components/GetWebPage.jsx'; //Carrega una pagina de la API
-import Capsalera from './components/Capsalera.jsx'; // Capçalera de la pagina web
 import CosPagNaus from './components/CosPagNaus.jsx'; // Cos de la Pag de Naus
 import CosUnaNau from './components/CosUnaNau.jsx'; // Cos d' una Nau
 import Peu from './components/Peu.jsx'; // Peu de la Pag web

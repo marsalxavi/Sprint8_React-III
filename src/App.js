@@ -1,10 +1,9 @@
-import React, { Component, useEffect, useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import './App.css';
 
 import { About } from './routes/About/About.jsx';
-import { Home as StarWars} from './routes/StarWars/Home.jsx';
+import { Home as StarWars } from './routes/StarWars/Home.jsx';
 
 import { NauByName } from './routes/Naus/NauByName';
 import { NausPage } from './routes/Naus/NausPage.jsx'
@@ -23,7 +22,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="router" style={{position:"relative"}}>
+
+      <div id="router" style={{ position: "relative" }}>
         <Switch>
           <Route path="/about"> <About /> </Route>
           <Route path="/naus/:NomNau"> <NauByName /> </Route>

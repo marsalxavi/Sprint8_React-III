@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import GetWebPage from "../StarShips/components/GetWebPage.jsx";
 
 export const NausPage = () => {
@@ -10,15 +10,6 @@ export const NausPage = () => {
   const PageNum = 1;
   const urlPageBase = new URL(`https://swapi.dev/api/starships/?page=`);
   const urlPage = new URL(`${urlPageBase}${PageNum}`);
-
-  /* 
-        useEffect(() => {
-            GetWebPage(urlPage);
-        }, [PageNum])
-    
-     */
-
-  const [WebPage, setWebPage] = useState([]);
 
   useEffect(() => {
     GetAryWebPage();

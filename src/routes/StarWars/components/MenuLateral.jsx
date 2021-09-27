@@ -9,6 +9,7 @@ export const MenuLateral = () => {
                 <img
                     src="https://www.denofgeek.com/wp-content/uploads/2016/01/star-destroyer_0-scaled.jpg?fit=2560%2C2066"
                     className="img-thumbnail mx-auto d-block img-fluid"
+                    alt=""
                 />
                 <p>Explore SpaceCrafts</p>
                 <h3 id="Naus">SpaceCrafts</h3>

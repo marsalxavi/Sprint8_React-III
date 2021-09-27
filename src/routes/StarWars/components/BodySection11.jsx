@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
 
 import { OwlCarouselShips } from "./OwlCarouselShips.jsx";
+import { ButonsLoginRegister } from "./ButonsLoginRegister.jsx";
+import { Login } from "./Login.jsx";
+import { Register } from "./Register.jsx";
 
 import "./BodySection11.css";
 
@@ -21,7 +24,13 @@ const FontsExtra = () => {
 
 const JumboWelcome = () => <h1>Welcome to STARWARS</h1>;
 
-const JumboTitol = () =>  <h2>Explore<br />the Galaxy !!!</h2>
+const JumboTitol = () => (
+  <h2>
+    Explore
+    <br />
+    the Galaxy !!!
+  </h2>
+);
 
 const JumboText = () => <p>Discover some StarShips</p>;
 
@@ -39,14 +48,15 @@ export const BodySection1 = () => {
   return (
     <>
       <FontsExtra />
-      {/* <Container> */}
       <div className="CarouselImg">
         <OwlCarouselShips />
       </div>
       <div className="Jumbo">
         <JumboFrame />
+        <Login />
+        <Register />
+        <ButonsLoginRegister />
       </div>
-      {/* </Container> */}
     </>
   );
 };

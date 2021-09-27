@@ -4,10 +4,10 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-import { Ship01Text, Ship01Img } from "./Ships.jsx";
-import { Ship02Text, Ship02Img } from "./Ships.jsx";
-import { Ship03Text, Ship03Img } from "./Ships.jsx";
-import { Ship04Text, Ship04Img } from "./Ships.jsx";
+import { Ship01Img } from "./Ships.jsx";
+import { Ship02Img } from "./Ships.jsx";
+import { Ship03Img } from "./Ships.jsx";
+import { Ship04Img } from "./Ships.jsx";
 
 export const OwlCarouselShips = () => {
   return (
@@ -25,16 +25,16 @@ export const OwlCarouselShips = () => {
       navText={["&#x3C&#x3C Prev", "Next >>"]}
     >
       <div className="item">
-        <img src={Ship01Img} />
+        <img src={Ship01Img} alt=""/>
       </div>
       <div className="item">
-        <img src={Ship02Img} />
+        <img src={Ship02Img} alt=""/>
       </div>
       <div className="item">
-        <img src={Ship03Img} />
+        <img src={Ship03Img} alt=""/>
       </div>
       <div className="item">
-        <img src={Ship04Img} />
+        <img src={Ship04Img} alt=""/>
       </div>
     </OwlCarousel>
   );
